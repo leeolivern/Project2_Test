@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color:#0D0B06;
+}
+
+p{
+	position:absolute;
+	color:white;
+	z-index: 1000000;
+	top:900px;
+	left:1200px;
+	cursor:default;
+	opacity:0;
+}
+
+img {
+	position: absolute;
+}
+
+.Leye{
+
+	left: 485px;
+	top: 878px;
+}
+
+.Reye{
+
+	left: 899px;
+	top: 900px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+
+.Reye:hover {
+	opacity: 1;
+}
+
+.Mouth{
+	left: 577px;
+	top: 1309px;
+	transition: top 5s;
+	transition-delay: 4.5s;
+	z-index: 1;
+}
+
+.Mouth:hover {
+	top:1509px;
+}
+
+.Smile{
+	left: 588px;
+	top: 1320px;
+}
+
+.player{
+	position: absolute;
+	left:600px;
+	top: 10px;
+	mix-blend-mode:overlay;
+	transform: scale(2,1.5);
+	z-index:10;
+}
+
+#scaler{
+	transform: scale(0.415);
+}

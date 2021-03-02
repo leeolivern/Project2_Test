@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Face</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="scaler">
+<!-- Audio -->
+	<audio id="myAudio">
+		<source src="Audio/MusicBox.mp3" >
+	</audio>
+	<div class="player">
+		<audio controls>
+			<source src="Audio/BackgroundAudio.mp3" >
+		</audio>
+	</div>
+	
+<!-- Text -->
+	<a href=>
+		<p>testing a thing</p>
+	</a>
+	
+<!-- Images -->
+	
+
+	<img src="Images/Background.png" alt=""/>
+	
+	<a href="https://www.youtube.com/watch?v=A7EGagFfI9M" target="_blank">
+		<img src="Images/LEye.png" class="Leye" alt=""/>
+	</a>
+	
+	<img src="Images/REye.png" class="Reye" alt=""/>
+	
+	<img src="Images/MouthTop.png" class="Mouth" onclick="playAudio()" alt=""/>
+	
+	<img src="Images/SmileTop.png" class="Smile" alt=""/>
+	
+
+	
+<!-- JScript goes down here -->
+<script>
+	
+	var x = document.getElementById("myAudio"); 
+
+	function playAudio() { 
+	  x.play(); 
+	} 
+
+	function pauseAudio() { 
+	  x.pause(); 
+	} 
+	
+</script>
+</div>
+	
+</body>
+</html>
